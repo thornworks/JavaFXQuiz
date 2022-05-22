@@ -1,0 +1,28 @@
+/* 
+    Created on : May 22, 2022, 3:06:46 PM
+    Author     : thorn
+*/
+
+Button {
+    -fx-background-color: linear-gradient(#888888, #333355);
+    -fx-background-radius: 20;
+    -fx-background-insets: 0;
+    -fx-padding: 5px;
+    -fx-text-fill: white;
+    -fx-font-size:16pt;
+    -fx-font-weight:bold;
+    
+}
+
+textArea {
+    -fx-font-size:14pt;
+    -fx-font-weight:bold;
+    -fx-font-family:Century Gothic, sans-serif;
+}
+.wrongAnswerButton {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+}
+
+.rightAnswerButton {
+    -fx-background-color: linear-gradient(#00ff55, #003300);
+}
